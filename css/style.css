@@ -14,14 +14,14 @@ body {
 	margin: 0px;
 }
 
-.mobile-nav {
+#mobile-menu {
 	display: inline-block;
 	background-color: black;
 	height: 30px;
+	padding-left: 10.5px;
 }
 
 #container {
-
 	max-width: 1024px;
 	min-width: 313px;
 	margin: 0px;
@@ -36,10 +36,6 @@ body {
 	height: 100px;
 }
 
-.mobile-nav {
-	text-align: center;
-}
-
 .menu-list {
 	margin: 0px;
 	padding: 0px;
@@ -48,9 +44,8 @@ body {
 
 .mobile-menu-list {
 	text-align: center;
-	display: inline-block;
-	padding-left: 4px;
-	padding-right: 4px;
+	margin: 0;
+	padding: 0;
 }
 
 .menu-item,
@@ -70,7 +65,9 @@ body {
 }
 
 .mobile-menu-item {
-	font-size: 16px;
+	font-size: 18px;
+	padding-right: 16px;
+	padding-left: 16px;
 }
 
 .last-menu-item {
@@ -81,7 +78,17 @@ body {
 	padding-left: 16px;
 }
 
-.menu-item:hover {
+.first-mobile-menu-item {
+	padding-left: 0px
+}
+
+.last-mobile-menu-item {
+	padding-right: 0px
+}
+
+
+.menu-item:hover,
+.mobile-menu-item:hover {
 	background-color: #FF5938;
 	cursor: pointer;
 }
@@ -194,9 +201,8 @@ body {
 }
 
 @media only screen and (max-width: 996px) {
-	.logo-text {
-		font-size: 32px;
-	}
+	.
+
 	.col-md-1 {
 		width: 8.33%;
 	}
