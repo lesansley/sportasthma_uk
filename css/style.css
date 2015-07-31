@@ -1,6 +1,6 @@
-* {
+/* {
 	border: 1px solid red !important;
-}
+}*/
 
 * {
 	-webkit-box-sizing: border-box;
@@ -53,6 +53,7 @@ hr {
 .menu-list {
 	text-align: center;
 	margin: 0;
+	padding: 0;
 }
 
 .align-right {
@@ -93,7 +94,7 @@ hr {
 
 .heading-logo-image,
 .logo-div {
-	min-width: 62.5px;
+	max-width: 55px;
 }
 
 .img-responsive {
@@ -101,7 +102,6 @@ hr {
 }
 .logo-heading {
 	padding-top: 10px;
-
 }
 
 .logo-text {
@@ -118,6 +118,9 @@ hr {
 .logo-last-word {
 	font-weight: 400;
 	color: #FF5938;
+}
+.col-lg-05 {
+	width: 4.16%;
 }
 
 .col-lg-1 {
@@ -181,58 +184,4 @@ hr {
 
 }
 
-@media only screen and (max-width: 0px) {
-	.
-
-	.col-md-1 {
-		width: 8.33%;
-	}
-	.col-md-2 {
-		width: 16.66%;
-	}
-	.col-md-9 {
-		width: 75%;
-	}
-	.logo-heading {
-		padding: 3px;
-		min-width: 125px;
-	}
-}
-
-@media only screen and (max-width: 780px) {
-	#container {
-		max-width: 1024px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.hidden-on-mobile {
-		display: none;
-	}
-}
-
-@media only screen and (max-width: 0) {
-	.hide-on-mobile {
-		display: none;
-	}
-
-	#container {
-		padding-left: 0px;
-		padding-right: 0px;;
-	}
-
-	#nav {
-		padding-right: 0px;
-	}
-	.logo-heading {
-		width: 232px;
-		padding: 3px;
-
-}
-
-@media only screen and (max-width: 580px) {
-
-
-
-
-}
+@media only screen and (max-width 414px)
