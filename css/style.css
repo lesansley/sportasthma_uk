@@ -98,20 +98,15 @@ hr {
    position: absolute;
    top: 15px;
    left: 10px;
-   width: 70%;
+   width: 50%;
    text-align: justify;
    font-size: 18px;
    line-height: 39px;
-}
-
-.spacer {
-   padding:0 5px;
-}
-
-.quote {
-	color: white;
-	font-weight: 400;
-	padding: 10px;
+   z-index: 100;
+   color: white;
+   font-weight: 400;
+   padding: 10px;
+   margin: 0;
 }
 
 .attribute {
@@ -125,6 +120,8 @@ hr {
 	letter-spacing: 0.5px;
 	line-height: 30px;
 	text-align: justify;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .heading-logo-image,
@@ -136,7 +133,7 @@ hr {
 	max-width: 100%;
 }
 
-.image {
+.background-image {
 	width: 100%;
 }
 
